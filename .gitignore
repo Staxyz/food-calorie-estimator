@@ -1,0 +1,60 @@
+# ---- Data (large, never commit) ----
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+# data/nutrition/ holds small CSVs and IS committed
+
+# ---- Models & checkpoints ----
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.safetensors
+*.bin
+*.h5
+*.pkl
+*.joblib
+
+# ---- Archives & large media (dataset downloads) ----
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.npy
+*.npz
+*.parquet
+*.feather
+
+# ---- Experiment tracking ----
+runs/
+wandb/
+lightning_logs/
+mlruns/
+outputs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.env
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- Gradio ----
+.gradio/
+flagged/
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

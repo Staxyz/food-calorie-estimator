@@ -1,0 +1,9 @@
+# torch and torchvision are intentionally NOT listed: Colab ships with them preinstalled.
+# Locally, install them first from https://pytorch.org/get-started/locally/
+timm
+scikit-learn
+pandas
+matplotlib
+gradio
+pillow
+tqdm
